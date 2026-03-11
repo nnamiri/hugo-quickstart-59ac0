@@ -6,9 +6,6 @@
 
 [build.environment]
   HUGO_VERSION = "0.146.5"#
-  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
-# set TERM variable for terminal output
-TERM = "xterm"
 
 [[plugins]]
   package = "netlify-plugin-cypress"
